@@ -24,8 +24,8 @@ import (
 	"github.com/minio/cli"
 	json "github.com/minio/mc/pkg/colorjson"
 	"github.com/minio/mc/pkg/probe"
-	"github.com/minio/minio/pkg/console"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/as-polyakov/minio/pkg/console"
+	"github.com/as-polyakov/minio/pkg/madmin"
 )
 
 var topLocksFlag = []cli.Flag{

@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/as-polyakov/minio/pkg/quick"
 	"github.com/minio/mc/pkg/probe"
-	"github.com/minio/minio/pkg/quick"
 )
 
 /////////////////// Session V6 ///////////////////

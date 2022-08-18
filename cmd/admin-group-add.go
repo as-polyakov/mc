@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/as-polyakov/minio/pkg/console"
+	"github.com/as-polyakov/minio/pkg/madmin"
 	"github.com/fatih/color"
 	"github.com/minio/cli"
 	json "github.com/minio/mc/pkg/colorjson"
 	"github.com/minio/mc/pkg/probe"
-	"github.com/minio/minio/pkg/console"
-	"github.com/minio/minio/pkg/madmin"
 )
 
 var adminGroupAddCmd = cli.Command{

@@ -20,10 +20,10 @@ import (
 	"context"
 	"time"
 
+	"github.com/as-polyakov/minio/pkg/console"
 	"github.com/fatih/color"
 	"github.com/minio/cli"
 	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio/pkg/console"
 )
 
 var (

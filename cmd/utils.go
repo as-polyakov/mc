@@ -36,9 +36,9 @@ import (
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 
+	"github.com/as-polyakov/minio/pkg/console"
 	"github.com/minio/mc/pkg/ioutils"
 	"github.com/minio/mc/pkg/probe"
-	"github.com/minio/minio/pkg/console"
 )
 
 func isErrIgnored(err *probe.Error) (ignored bool) {

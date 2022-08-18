@@ -23,12 +23,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/as-polyakov/minio/pkg/console"
 	"github.com/fatih/color"
 	"github.com/minio/cli"
 	json "github.com/minio/mc/pkg/colorjson"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio/pkg/console"
 )
 
 var (

@@ -34,7 +34,7 @@ import (
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 	"github.com/minio/minio-go/v7/pkg/notification"
-	"github.com/minio/minio/pkg/console"
+	"github.com/as-polyakov/minio/pkg/console"
 )
 
 // mirror specific flags.

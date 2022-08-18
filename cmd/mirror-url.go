@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/as-polyakov/minio/pkg/wildcard"
 	"github.com/minio/cli"
-	"github.com/minio/minio/pkg/wildcard"
 )
 
 //

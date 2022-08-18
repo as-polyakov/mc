@@ -22,8 +22,8 @@ import (
 	"runtime"
 	"time"
 
+	"github.com/as-polyakov/minio/pkg/console"
 	"github.com/minio/cli"
-	"github.com/minio/minio/pkg/console"
 )
 
 func checkCopySyntax(ctx context.Context, cliCtx *cli.Context, encKeyDB map[string][]prefixSSEPair, isMvCmd bool) {

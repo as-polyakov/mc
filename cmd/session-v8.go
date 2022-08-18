@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/as-polyakov/minio/pkg/console"
+	"github.com/as-polyakov/minio/pkg/quick"
 	json "github.com/minio/mc/pkg/colorjson"
 	"github.com/minio/mc/pkg/probe"
-	"github.com/minio/minio/pkg/console"
-	"github.com/minio/minio/pkg/quick"
 )
 
 // sessionV8Header for resumable sessions.

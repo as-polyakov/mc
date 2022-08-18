@@ -21,11 +21,11 @@ import (
 	"text/tabwriter"
 	"text/template"
 
+	"github.com/as-polyakov/minio/pkg/console"
 	"github.com/fatih/color"
 	"github.com/minio/cli"
 	json "github.com/minio/mc/pkg/colorjson"
 	"github.com/minio/mc/pkg/probe"
-	"github.com/minio/minio/pkg/console"
 )
 
 var historyListFlags = []cli.Flag{

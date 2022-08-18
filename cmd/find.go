@@ -30,10 +30,10 @@ import (
 
 	"github.com/dustin/go-humanize"
 	"github.com/minio/mc/pkg/probe"
-	"github.com/minio/minio/pkg/console"
+	"github.com/as-polyakov/minio/pkg/console"
 
 	// golang does not support flat keys for path matching, find does
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/as-polyakov/minio/pkg/wildcard"
 )
 
 // findMessage holds JSON and string values for printing find command output.

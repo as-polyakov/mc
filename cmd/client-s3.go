@@ -49,7 +49,7 @@ import (
 
 	"github.com/minio/minio-go/v7/pkg/s3utils"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/pkg/mimedb"
+	"github.com/as-polyakov/minio/pkg/mimedb"
 )
 
 // S3Client construct

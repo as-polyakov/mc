@@ -17,9 +17,9 @@
 package cmd
 
 import (
+	"github.com/as-polyakov/minio/pkg/console"
 	"github.com/fatih/color"
 	"github.com/minio/cli"
-	"github.com/minio/minio/pkg/console"
 )
 
 var ilmSubcommands = []cli.Command{

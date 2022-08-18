@@ -19,6 +19,7 @@ package cmd
 import (
 	"context"
 	"os/exec"
+	"runtime"
 	"strings"
 	"testing"
 	"time"
@@ -420,6 +421,10 @@ func TestStringReplace(t *testing.T) {
 
 // Tests exit status, getExitStatus() function
 func TestGetExitStatus(t *testing.T) {
+	if runtime.GOOS != "linux" {
+		t.Skip("Skipping on non-linux")
+		return
+	}
 	testCases := []struct {
 		command            string
 		expectedExitStatus int

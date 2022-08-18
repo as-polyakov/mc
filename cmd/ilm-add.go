@@ -19,13 +19,13 @@ package cmd
 import (
 	"context"
 
+	"github.com/as-polyakov/minio/pkg/console"
 	"github.com/minio/cli"
 	"github.com/minio/mc/cmd/ilm"
 	json "github.com/minio/mc/pkg/colorjson"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/lifecycle"
-	"github.com/minio/minio/pkg/console"
 )
 
 var ilmAddCmd = cli.Command{

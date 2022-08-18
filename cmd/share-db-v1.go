@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/minio/mc/pkg/probe"
-	"github.com/minio/minio/pkg/quick"
+	"github.com/as-polyakov/minio/pkg/quick"
 )
 
 // shareEntryV1 - container for each download/upload entries.
